@@ -45,3 +45,20 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+print("Ingrese el nombre completo del padre o de la madre")
+padre_1 = str(input())
+print("Ingrese el nombre completo del padre o de la madre")
+padre_2 = str(input())
+print("Ingrese el nombre de su hijo/a")
+nombre_hijo = str(input())
+lista_padre1 = padre_1.split()  
+lista_padre2 = padre_2.split()
+#split() me genera una lista a partir de una cadena de caracteres según el separador que indiquemos entre ()
+apellido_1 = lista_padre1[-1] #Guardo la última palabra ingresada, que será el apellido
+apellido_2 = lista_padre2[-1] #Guardo la última palabra ingresada, que será el apellido
+print(lista_padre1) #Verificar lo que me guardaba en la lista
+print(lista_padre2) #Verificar lo que me guardaba en la lista
+print(apellido_1)   #Verificar lo que me guardaba en la variable apellido_1
+print(apellido_2)   #Verificar lo que me guardaba en la variable apellido_2
+print("El nombre completo de su hijo/a es:", nombre_hijo, apellido_1, apellido_2)
+

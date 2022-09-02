@@ -20,3 +20,7 @@ palabra_2 = str(input())
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
+primeras_tres_1 = palabra_1[:3]
+primeras_tres_2 = palabra_2[:3]
+nueva_palabra = primeras_tres_1 + primeras_tres_2
+print("El resultado de juntar las primeras tres letras de cada palabra es:", nueva_palabra)
